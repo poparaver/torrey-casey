@@ -27,7 +27,7 @@
     <style>
         body { background-color: #0f0f0f; color: #f1faee; }
         .hero-bg {
-            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://images.unsplash.com/photo-1511192336575-5a79af67a629?q=80&w=2669&auto=format&fit=crop') no-repeat center center;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://stlbluestalent.net/wp-content/uploads/2017/10/4.jpg') no-repeat center center;
             background-size: cover;
         }
         .text-gradient {
@@ -51,8 +51,9 @@
                 <div class="hidden md:block">
                     <div class="ml-10 flex items-baseline space-x-8">
                         <a href="#about" class="hover:text-accent px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors">About</a>
-                        <a href="#music" class="hover:text-accent px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors">Music</a>
+                        <a href="#music" class="hover:text-accent px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors">Music & Media</a>
                         <a href="#shows" class="hover:text-accent px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors">Shows</a>
+                        <a href="#social-feed" class="hover:text-accent px-3 py-2 rounded-md text-sm font-medium uppercase tracking-wide transition-colors">Updates</a>
                         <a href="#contact" class="bg-accent hover:bg-red-700 text-white px-5 py-2 rounded-full text-sm font-medium uppercase tracking-wide transition-all">Book Now</a>
                     </div>
                 </div>
@@ -89,8 +90,8 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
                 <div class="order-2 md:order-1 relative">
                     <div class="aspect-square bg-gradient-to-tr from-accent to-orange-500 rounded-3xl overflow-hidden shadow-2xl transform -rotate-3 hover:rotate-0 transition-transform duration-500">
-                        <!-- Placeholder for artist photo -->
-                        <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=2574&auto=format&fit=crop" alt="Torrey Casey Performance" class="w-full h-full object-cover mix-blend-overlay opacity-80 hover:opacity-100 transition-opacity">
+                        <!-- Real artist photo from STL Blues Talent -->
+                        <img src="https://stlbluestalent.net/wp-content/uploads/2017/10/4.jpg" alt="Torrey Casey Performance" class="w-full h-full object-cover mix-blend-overlay opacity-80 hover:opacity-100 transition-opacity">
                     </div>
                     <div class="absolute -bottom-10 -right-10 bg-white text-primary p-6 rounded-2xl shadow-xl hidden lg:block">
                         <p class="font-bold text-xl">"A true Blues powerhouse"</p>
@@ -106,9 +107,15 @@
                     <p class="text-gray-400 mb-8 leading-relaxed">
                         With deep roots in the St. Louis music scene, Torrey Casey and the Southside Hustle blend traditional blues aesthetics with modern R&B grooves. Their performances are a celebration of musical heritage, guaranteed to get you moving.
                     </p>
-                    <div class="flex gap-6">
-                        <a href="https://stlbluestalent.net/torrey-casey/" target="_blank" class="flex items-center gap-2 text-white hover:text-accent transition-colors font-medium">
-                            <i class="fas fa-external-link-alt"></i> STL Blues Talent Profile
+                    <div class="flex flex-wrap gap-4">
+                        <a href="https://stlbluestalent.net/torrey-casey/" target="_blank" class="flex items-center gap-2 bg-gray-800 hover:bg-gray-700 px-4 py-2 rounded-lg text-white transition-colors font-medium text-sm">
+                            <i class="fas fa-external-link-alt"></i> STL Blues Talent
+                        </a>
+                        <a href="https://www.facebook.com/TorreyCaseyandtheSouthsideHustle/" target="_blank" class="flex items-center gap-2 bg-[#1877F2] hover:bg-blue-600 px-4 py-2 rounded-lg text-white transition-colors font-medium text-sm">
+                            <i class="fab fa-facebook-f"></i> Band Page
+                        </a>
+                        <a href="https://www.instagram.com/torrey.casey/" target="_blank" class="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-purple-600 hover:to-pink-600 px-4 py-2 rounded-lg text-white transition-colors font-medium text-sm">
+                            <i class="fab fa-instagram"></i> Instagram
                         </a>
                     </div>
                 </div>
@@ -119,12 +126,12 @@
     <!-- Music & Videos Section -->
     <section id="music" class="section-padding bg-[#151515]">
         <div class="max-w-7xl mx-auto text-center mb-16">
-            <h2 class="text-accent font-bold tracking-widest uppercase text-sm mb-2">Live Performances</h2>
+            <h2 class="text-accent font-bold tracking-widest uppercase text-sm mb-2">Live Performances & Media</h2>
             <h3 class="text-4xl md:text-5xl font-serif font-bold mb-4">Watch The Hustle</h3>
-            <p class="text-gray-400 max-w-2xl mx-auto">Experience the energy of our live shows from wherever you are.</p>
+            <p class="text-gray-400 max-w-2xl mx-auto">Experience the energy of our live shows from wherever you are. Videos straight from YouTube and Facebook.</p>
         </div>
         
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
             <!-- YouTube Embed 1 -->
             <div class="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video group relative">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/TIp7ibuuFhs" title="Torrey Casey Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -134,11 +141,24 @@
             <div class="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video group relative">
                 <iframe class="w-full h-full" src="https://www.youtube.com/embed/-__fvqFFg9w" title="Torrey Casey Live" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
+
+            <!-- Facebook Video 1 -->
+            <div class="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video group relative flex items-center justify-center">
+                <iframe class="w-full h-full" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fwatch%2F%3Fv%3D2379676742316898&show_text=false" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+
+            <!-- Facebook Video 2 (Prom / Photo Booth) -->
+            <div class="rounded-2xl overflow-hidden shadow-2xl bg-black aspect-video group relative flex items-center justify-center">
+                <iframe class="w-full h-full" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftorrey.casey%2Fvideos%2F1323071563005277%2F&show_text=false" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
         </div>
 
-        <div class="text-center mt-12">
+        <div class="text-center mt-12 flex justify-center gap-4 flex-wrap">
             <a href="https://www.youtube.com/results?search_query=torrey+casey+and+the+southside+hustle" target="_blank" class="inline-flex items-center gap-3 bg-white text-black px-6 py-3 rounded-full font-bold hover:bg-gray-200 transition-colors">
                 <i class="fab fa-youtube text-red-600 text-xl"></i> More on YouTube
+            </a>
+            <a href="https://www.facebook.com/TorreyCaseyandtheSouthsideHustle/videos" target="_blank" class="inline-flex items-center gap-3 bg-[#1877F2] text-white px-6 py-3 rounded-full font-bold hover:bg-blue-600 transition-colors">
+                <i class="fab fa-facebook-video text-xl"></i> Facebook Videos
             </a>
         </div>
     </section>
@@ -177,11 +197,25 @@
                         </div>
                         <div>
                             <h4 class="text-xl font-bold mb-1 group-hover:text-accent transition-colors">Private Events & Photo Booth</h4>
-                            <p class="text-gray-400">Available for Proms, Weddings, and corporate events featuring the Rotofoto 360 photo booth.</p>
+                            <p class="text-gray-400">Available for Proms, Weddings, and corporate events featuring the Rotofoto 360 photo booth. Capture your night in full 360-degree glory!</p>
                         </div>
                     </div>
                     <a href="#contact" class="w-full md:w-auto text-center bg-white/10 hover:bg-white hover:text-black px-6 py-2 rounded-full font-medium transition-colors">Inquire</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facebook Feed Section -->
+    <section id="social-feed" class="section-padding bg-[#0a0a0a]">
+        <div class="max-w-7xl mx-auto text-center mb-12">
+            <h2 class="text-accent font-bold tracking-widest uppercase text-sm mb-2">Stay Connected</h2>
+            <h3 class="text-4xl md:text-5xl font-serif font-bold mb-4">Latest Updates</h3>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-8">Follow the band's latest posts, announcements, and behind-the-scenes moments right from Facebook.</p>
+        </div>
+        <div class="flex justify-center">
+            <div class="bg-white rounded-xl overflow-hidden shadow-2xl p-2 max-w-full overflow-x-auto border-4 border-white/10">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FTorreyCaseyandtheSouthsideHustle%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
             </div>
         </div>
     </section>
